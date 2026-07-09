@@ -1,6 +1,6 @@
 # Nick Cinera Resume
 
-Public resume artifacts for Nick Cinera, tailored toward trading systems, low-latency UI, full-stack capital-markets engineering, and AI-assisted engineering workflows.
+Public resume artifacts for Nick Cinera, focused on trading systems, low-latency UI, full-stack capital-markets engineering, and AI-assisted engineering workflows.
 
 ## Files
 
