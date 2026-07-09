@@ -1,0 +1,7 @@
+tmp/
+output/rendered/
+output/*.png
+output/Nick_Cinera_Citadel_Resume.*
+output/Nick_Cinera_Citadel_Resume_from_docx.pdf
+*.tmp
+~$*
