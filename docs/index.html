@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nick Cinera - Resume</title>
+  <meta name="description" content="Nick Cinera - full-stack trading systems engineer focused on low-latency UI, event-driven architecture, and capital markets technology.">
+  <style>
+    :root {
+      --ink: #171d24;
+      --muted: #56616f;
+      --accent: #00587a;
+      --line: #d6dde6;
+      --soft: #f6f8fa;
+      --paper: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #eef2f5;
+      line-height: 1.48;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 18px 48px;
+    }
+
+    .resume {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 44px 52px;
+      box-shadow: 0 18px 48px rgba(18, 35, 50, 0.10);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 42px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .tagline {
+      margin: 8px 0 6px;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .contact {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .summary {
+      max-width: 850px;
+      margin: 18px auto 0;
+      font-size: 16px;
+    }
+
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 22px;
+    }
+
+    .button {
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      padding: 8px 13px;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    section {
+      margin-top: 22px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      color: var(--accent);
+      border-bottom: 1px solid #b9c3cf;
+      font-size: 20px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      border: 1px solid var(--line);
+      border-bottom: 0;
+      border-right: 0;
+    }
+
+    .skill {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      padding: 10px 12px;
+      font-size: 14px;
+      min-height: 74px;
+    }
+
+    .skill:nth-child(-n+3),
+    .skill:nth-child(n+7) {
+      background: var(--soft);
+    }
+
+    .skill strong {
+      color: var(--accent);
+    }
+
+    .role {
+      margin-top: 12px;
+    }
+
+    .role-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: baseline;
+      font-size: 17px;
+      margin-bottom: 2px;
+    }
+
+    .role-head strong {
+      font-size: 18px;
+    }
+
+    .dates {
+      color: var(--muted);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    ul {
+      margin: 4px 0 0 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    .location {
+      color: var(--muted);
+    }
+
+    @media (max-width: 760px) {
+      .resume {
+        padding: 28px 22px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .skills {
+        grid-template-columns: 1fr;
+      }
+
+      .role-head {
+        display: block;
+      }
+
+      .dates {
+        display: block;
+        margin-top: 2px;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page {
+        padding: 0;
+      }
+
+      .resume {
+        border: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+
+      .actions {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <article class="resume">
+      <header>
+        <h1>Nick Cinera</h1>
+        <div class="tagline">Full-Stack Trading Systems Engineer | Low-Latency UI, Event-Driven Architecture, Capital Markets</div>
+        <div class="contact">
+          New York, NY | 386-212-8631 | <a href="mailto:nicolas.cinera@gmail.com">nicolas.cinera@gmail.com</a> |
+          <a href="https://www.linkedin.com/in/nickcinera">linkedin.com/in/nickcinera</a> |
+          <a href="https://github.com/Extrieve">github.com/Extrieve</a>
+        </div>
+        <p class="summary">
+          Goldman Sachs engineer building latency-sensitive trading platforms across React, TypeScript, Redux, AG Grid, Java, and WebSocket. Owns production workflows end-to-end: low-latency UI rendering, event-driven distributed systems, server-authoritative streaming models, feature-canary migrations, release configuration, and trader-facing reliability. Adept at using AI workflows and agentic coding systems to accelerate codebase navigation, design exploration, debugging, test generation, and technical writing while keeping validation rigorous.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="../output/Nick_Cinera_Resume.pdf">Download PDF</a>
+          <a class="button" href="../output/Nick_Cinera_Resume.docx">Download DOCX</a>
+          <a class="button" href="../output/Nick_Cinera_Resume.md">Markdown</a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Core Strengths</h2>
+        <div class="skills">
+          <div class="skill"><strong>Trading Systems:</strong> Equity derivatives RFQ/RFS, DCM new issue workflows, pricing grids, P&amp;L / fees, investor analytics</div>
+          <div class="skill"><strong>Frontend:</strong> React, TypeScript, Redux Toolkit, redux-observable / RxJS, AG Grid Enterprise, Cypress, Jest, Karma/Jasmine</div>
+          <div class="skill"><strong>Backend &amp; Platform:</strong> Java, WebSocket, REST APIs, distributed systems, Node.js, Python, Go, SQL, Docker, AWS, CI/CD</div>
+          <div class="skill"><strong>Performance:</strong> Low-latency frontend performance, large-grid rendering, diff-based streaming, state synchronization, payload reduction</div>
+          <div class="skill"><strong>Ownership:</strong> End-to-end delivery, cross-team release engineering, migration planning, production hardening</div>
+          <div class="skill"><strong>Foundations:</strong> Algorithms, C/C++, Java certification, machine-learning graduate study, competitive-programming leadership</div>
+          <div class="skill"><strong>AI Workflows:</strong> Agentic coding systems, repo-aware code generation, AI-assisted debugging/refactoring, test scaffolding, review prep</div>
+          <div class="skill"><strong>Systems Design:</strong> Server-authoritative projections, normalized/denormalized models, event handlers, shared domain libraries</div>
+          <div class="skill"><strong>Delivery Quality:</strong> Production reliability, canary rollouts, parity validation, regression discipline, feature flags, safe migration sequencing</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <div class="role">
+          <div class="role-head"><div><strong>Goldman Sachs</strong> - Software Engineer, Global Markets - Equities <span class="location">| New York, NY</span></div><span class="dates">Apr 2025 - Present</span></div>
+          <ul>
+            <li>Technical owner for a real-time, multi-leg pricing grid used by traders to price and structure equity-derivatives RFQ/RFS inquiries; owns the React/TypeScript UI, Java server tier, WebSocket stream, and declarative release configuration.</li>
+            <li>Migrated a legacy client-heavy pricer to a server-authoritative, event-driven streaming architecture behind a feature canary, running old and new paths in parallel through layout/parity validation before retiring legacy code.</li>
+            <li>Implemented server-computed table layouts spanning tabs, columns, nested per-leg child grids, expansion state, styling, formatting, and cell renderers so the client stays thin and optimized for interaction/rendering.</li>
+            <li>Modeled both normalized and denormalized projections for the same portfolio, enabling single-table and per-leg nested-grid views from a shared server-side layout engine and preserving parity with legacy trader workflows.</li>
+            <li>Reduced redundant per-tick WebSocket payloads by publishing only changed table structure through value-equality / diff-based streaming and removing fields serialized on every market or valuation event.</li>
+            <li>Delivered 378 commits across 1,437 files over 12 months (+55,204 / -19,575 LOC), including 188 commits on the pricing-grid/data layer and 35 of 38 server-tier commits in the core pricing engine.</li>
+            <li>Uses AI-assisted and agentic engineering workflows for codebase search, implementation planning, refactor decomposition, test-case ideation, and review checklists while grounding changes in local builds, specs, and production constraints.</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <div class="role-head"><div><strong>Goldman Sachs</strong> - Software Engineer, Investment Banking - Debt Capital Markets <span class="location">| New York, NY</span></div><span class="dates">Feb 2023 - Apr 2025</span></div>
+          <ul>
+            <li>Owned two production trading applications used daily by syndicate bankers, traders, and capital-markets originators for bond and loan new-issue workflows: investor targeting, demand aggregation, pricing/allocation, trade booking, and P&amp;L / fee reconciliation.</li>
+            <li>Built AG Grid-heavy React/TypeScript surfaces across two state paradigms: a Redux Toolkit / Module Federation investor-analytics host and a classic Redux + redux-observable syndicate-link platform.</li>
+            <li>Maintained a Module Federation host that loaded federated investor-analytics remotes with runtime-injected origins across dev / QA / prod while keeping shared React/Redux dependencies singleton-safe.</li>
+            <li>Built a cross-tab user-preferences framework for major grid views, persisting per-user column order, visibility, widths, pin state, and drag/reorder rules while unifying CSV/Excel export behavior with on-screen layout.</li>
+            <li>Owned the syndicate-link P&amp;L tab end-to-end, including GS Fees, Controllers Flash, Synd Fees, and Deal Table grids, with editable cell navigation, dirty-field highlighting, precision rules, value setters, and audit labeling.</li>
+            <li>Led an investor-participation query workflow from input form to API, grid, and export, including multi-currency demand aggregation, conversion toggles, incompatible-mode suppression, export parity, and user-group tab gating.</li>
+            <li>Managed Funds Flow integration through versioned NPM packages and branch-conditional CI install rules so integration testing could float against upstream releases without destabilizing production trains.</li>
+            <li>Drove framework and dependency migrations across managed CI/CD pipelines, including React 17 to 18, AG Grid 23 to 30, node-sass removal, Highcharts upgrades, LaunchDarkly SDK upgrades, GS UI Toolkit upgrades, and Node/NPM version bumps.</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <div class="role-head"><div><strong>Goldman Sachs</strong> - Software Engineer Intern <span class="location">| Dallas, TX</span></div><span class="dates">Jun 2022 - Aug 2022</span></div>
+          <ul>
+            <li>Returned full-time after internship; built production engineering context in a regulated financial-services environment.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education, Certifications &amp; Leadership</h2>
+        <div class="role">
+          <div class="role-head"><div><strong>University of South Florida</strong> - M.S., Computer and Information Systems - Machine Learning Concentration</div><span class="dates">Dec 2022</span></div>
+          <ul>
+            <li>Technical Chairman, USF Society of Competitive Programmers; led ICPC-style preparation, coached students through algorithmic problem solving, and built training around data structures, complexity, correctness, and reasoning under constraints.</li>
+            <li>Oracle Certified Professional, Java SE 8 Programmer II; Oracle Certified Associate, Java SE 8 Programmer. Bilingual English / Spanish.</li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
