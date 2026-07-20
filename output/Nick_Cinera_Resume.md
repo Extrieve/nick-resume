@@ -1,57 +1,50 @@
 # Nick Cinera
 
-Full-Stack Trading Systems Engineer | Low-Latency UI, Event-Driven Architecture, Capital Markets
+Trading Systems Engineer | High-Performance UI, Real-Time Data & Distributed Systems
 
 New York, NY | 386-212-8631 | nicolas.cinera@gmail.com | linkedin.com/in/nickcinera | github.com/Extrieve
 
-Goldman Sachs engineer building latency-sensitive trading platforms across React, TypeScript, Redux, AG Grid, Java, and WebSocket. Owns production workflows end-to-end: low-latency UI rendering, event-driven distributed systems, server-authoritative streaming models, feature-canary migrations, release configuration, and trader-facing reliability. Adept at using AI workflows and agentic coding systems to accelerate codebase navigation, design exploration, debugging, test generation, and technical writing while keeping validation rigorous.
+Software engineer at Goldman Sachs building latency-sensitive equity-derivatives and capital-markets platforms used by traders and deal teams. Owns React/TypeScript/AG Grid interfaces through Java/WebSocket services and production rollout, with deep experience in real-time state, large data grids, event-driven architecture, and controlled migration of desk-critical workflows.
 
-## Core Strengths
+## Technical Expertise
 
-- Trading Systems: Equity derivatives RFQ/RFS, DCM new issue workflows, pricing grids, P&L / fees, investor analytics
-- Frontend Architecture: React, TypeScript, Redux Toolkit, redux-observable / RxJS, AG Grid Enterprise, Cypress, Jest, Karma/Jasmine
-- Backend & Platform: Java, WebSocket streaming, REST APIs, distributed systems, Node.js, Python, Go, SQL, Docker, AWS, CI/CD
-- Performance: Low-latency frontend performance, large-grid rendering, diff-based streaming, state synchronization, payload reduction
-- Ownership: End-to-end product delivery, cross-team release engineering, migration planning, production hardening
-- Foundations: Algorithms, C/C++, Java certification, machine-learning graduate study, competitive-programming leadership
-- AI Workflows: Agentic coding systems, repo-aware code generation, AI-assisted debugging/refactoring, test scaffolding, review prep
-- Systems Design: Server-authoritative projections, normalized/denormalized models, event handlers, shared domain libraries
-- Delivery Quality: Production reliability, canary rollouts, parity validation, regression discipline, feature flags, safe migration sequencing
+- **Frontend:** React, TypeScript, JavaScript, Redux Toolkit, redux-observable/RxJS, AG Grid Enterprise, Module Federation, Cypress, Jest, Karma/Jasmine
+- **Real-Time & Backend:** Java, WebSocket, REST APIs, Node.js, Python, SQL, event-driven/distributed systems, normalized and denormalized projections
+- **Trading & Delivery:** Equity derivatives RFQ/RFS, DCM new issuance, pricing grids, P&L/fees, CI/CD, LaunchDarkly, canary rollouts, production hardening
+- **AI-Accelerated Engineering:** Agentic coding systems, repo-aware code generation, debugging and refactoring, test design, and review workflows grounded in builds, tests, and human validation
 
 ## Experience
 
 ### Goldman Sachs - Software Engineer, Global Markets - Equities
 Apr 2025 - Present | New York, NY
 
-- Technical owner for a real-time, multi-leg pricing grid used by traders to price and structure equity-derivatives RFQ/RFS inquiries; owns the React/TypeScript UI, Java server tier, WebSocket stream, and declarative release configuration.
-- Migrated a legacy client-heavy pricer to a server-authoritative, event-driven streaming architecture behind a feature canary, running old and new paths in parallel through layout/parity validation before retiring legacy code.
-- Implemented server-computed table layouts spanning tabs, columns, nested per-leg child grids, expansion state, styling, formatting, and cell renderers so the client stays thin and optimized for interaction/rendering.
-- Modeled both normalized and denormalized projections for the same portfolio, enabling single-table and per-leg nested-grid views from a shared server-side layout engine and preserving parity with legacy trader workflows.
-- Reduced redundant per-tick WebSocket payloads by publishing only changed table structure through value-equality / diff-based streaming and removing fields serialized on every market or valuation event.
-- Delivered 378 commits across 1,437 files over 12 months (+55,204 / -19,575 LOC), including 188 commits on the pricing-grid/data layer and 35 of 38 server-tier commits in the core pricing engine.
-- Uses AI-assisted and agentic engineering workflows for codebase search, implementation planning, refactor decomposition, test-case ideation, and review checklists while grounding changes in local builds, specs, and production constraints.
+- Own end-to-end delivery of a real-time, multi-leg pricing grid used by equity-derivatives traders to price and structure RFQ/RFS inquiries, spanning the React/TypeScript/AG Grid UI, Java pricing and streaming tier, WebSocket protocol, and release configuration.
+- Led the incremental migration of a legacy client-heavy pricer to a server-authoritative, event-driven architecture; used a feature canary and parallel old/new-path validation to protect trader workflows while establishing parity and retiring legacy paths.
+- Designed a server-computed layout model that streams tabs, columns, nested per-leg grids, expansion state, styling, formatting, and cell-renderer metadata, keeping the browser focused on fast rendering and interaction rather than layout computation.
+- Built normalized and denormalized projections from a shared domain model and diff-based WebSocket publishing, sending only changed structure and removing redundant per-event fields to reduce payload churn on a latency-sensitive path.
+- Delivered approximately 100 tracked work items across UI, Java services, and release configuration in 12 months, including 188 commits on the pricing-grid/data layer and 35 of 38 server-tier commits in the core pricing engine.
+- Use AI-assisted and agentic engineering workflows for repository-scale navigation, implementation planning, debugging, refactor decomposition, test design, and review, validating outputs against local builds, specifications, and production constraints.
 
 ### Goldman Sachs - Software Engineer, Investment Banking - Debt Capital Markets
 Feb 2023 - Apr 2025 | New York, NY
 
-- Owned two production trading applications used daily by syndicate bankers, traders, and capital-markets originators for bond and loan new-issue workflows: investor targeting, demand aggregation, pricing/allocation, trade booking, and P&L / fee reconciliation.
-- Built AG Grid-heavy React/TypeScript surfaces across two state paradigms: a Redux Toolkit / Module Federation investor-analytics host and a classic Redux + redux-observable syndicate-link platform.
-- Maintained a Module Federation host that loaded federated investor-analytics remotes with runtime-injected origins across dev / QA / prod while keeping shared React/Redux dependencies singleton-safe.
-- Built a cross-tab user-preferences framework for major grid views, persisting per-user column order, visibility, widths, pin state, and drag/reorder rules while unifying CSV/Excel export behavior with on-screen layout.
-- Owned the syndicate-link P&L tab end-to-end, including GS Fees, Controllers Flash, Synd Fees, and Deal Table grids, with editable cell navigation, dirty-field highlighting, precision rules, value setters, and audit labeling.
-- Led an investor-participation query workflow from input form to API, grid, and export, including multi-currency demand aggregation, conversion toggles, incompatible-mode suppression, export parity, and user-group tab gating.
-- Managed Funds Flow integration through versioned NPM packages and branch-conditional CI install rules so integration testing could float against upstream releases without destabilizing production trains.
-- Drove framework and dependency migrations across managed CI/CD pipelines, including React 17 to 18, AG Grid 23 to 30, node-sass removal, Highcharts upgrades, LaunchDarkly SDK upgrades, GS UI Toolkit upgrades, and Node/NPM version bumps.
+- Owned two production capital-markets applications used daily for bond and loan new-issue workflows, from investor targeting and demand aggregation through pricing, allocation, trade booking, and P&L/fee reconciliation.
+- Built dense, keyboard-driven React/TypeScript and AG Grid workflows across Redux Toolkit/Module Federation and Redux/redux-observable (RxJS), integrating real-time updates and domain REST services.
+- Operated an investor-analytics platform as a Module Federation host, loading remote applications through runtime-injected origins across development, QA, and production while keeping shared React/Redux dependencies singleton-safe.
+- Created a reusable cross-tab grid-preferences and export framework that persisted each user's column order, visibility, widths, pinning, and reorder rules while keeping CSV/Excel output aligned with the on-screen layout.
+- Delivered P&L/fee editing and investor-participation workflows end-to-end, including tab-and-enter navigation, dirty-state cues, precision rules, multi-currency aggregation, API integration, authorization gating, and export parity.
+- Managed a versioned Funds Flow UI package integration through branch-conditional CI install rules, allowing integration testing against candidate upstream releases without destabilizing production release branches.
+- Modernized both platforms through React 17-to-18 and AG Grid 23-to-30 migrations, node-sass removal, LaunchDarkly/UI toolkit/Node upgrades, Module Federation release configuration, and partner-package integration across managed CI/CD pipelines.
 
 ### Goldman Sachs - Software Engineer Intern
 Jun 2022 - Aug 2022 | Dallas, TX
 
-- Returned full-time after internship; built production engineering context in a regulated financial-services environment.
+- Earned a return offer after building production engineering experience in a regulated financial-services environment.
 
-## Education, Certifications & Leadership
+## Education, Leadership & Credentials
 
-### University of South Florida - M.S., Computer and Information Systems - Machine Learning Concentration
+### University of South Florida - M.S., Computer & Information Systems (Machine Learning)
 Dec 2022
 
-- Technical Chairman, USF Society of Competitive Programmers; led ICPC-style preparation, coached students through algorithmic problem solving, and built training around data structures, complexity, correctness, and reasoning under constraints.
-- Oracle Certified Professional, Java SE 8 Programmer II; Oracle Certified Associate, Java SE 8 Programmer. Bilingual English / Spanish.
+- Technical Chairman, USF Society of Competitive Programmers - prepared and coached students for ICPC competitions, teaching data structures, algorithms, complexity analysis, correctness, and systematic problem solving under time constraints.
+- Oracle Certified Professional, Java SE 8 Programmer II; Oracle Certified Associate, Java SE 8 Programmer | Bilingual English/Spanish
