@@ -10,7 +10,7 @@ Software engineer at Goldman Sachs building latency-sensitive equity-derivatives
 
 - **Frontend:** React, TypeScript, JavaScript, Redux Toolkit, redux-observable/RxJS, AG Grid Enterprise, Module Federation, Cypress, Jest, Karma/Jasmine
 - **Real-Time & Backend:** Java, WebSocket, REST APIs, Node.js, Python, SQL, event-driven/distributed systems, normalized and denormalized projections
-- **Trading & Delivery:** Equity derivatives RFQ/RFS, DCM new issuance, pricing grids, P&L/fees, CI/CD, LaunchDarkly, canary rollouts, production hardening
+- **Trading & Delivery:** Equity derivatives RFQ/RFT (request-for-quote/request-for-trade) workflows, including RFS support, DCM new issuance, pricing grids, P&L/fees, CI/CD, LaunchDarkly, canary rollouts, production hardening
 - **AI-Accelerated Engineering:** Agentic coding systems, repo-aware code generation, debugging and refactoring, test design, and review workflows grounded in builds, tests, and human validation
 
 ## Experience
@@ -18,7 +18,7 @@ Software engineer at Goldman Sachs building latency-sensitive equity-derivatives
 ### Goldman Sachs - Software Engineer, Global Markets - Equities
 Apr 2025 - Present | New York, NY
 
-- Own end-to-end delivery of a real-time, multi-leg pricing grid used by equity-derivatives traders to price and structure RFQ/RFS inquiries, spanning the React/TypeScript/AG Grid UI, Java pricing and streaming tier, WebSocket protocol, and release configuration.
+- Own end-to-end delivery of a real-time, multi-leg pricing grid used by equity-derivatives traders to price and structure RFQ/RFT inquiries and trades, spanning the React/TypeScript/AG Grid UI, Java pricing and streaming tier, WebSocket protocol, and release configuration.
 - Led the incremental migration of a legacy client-heavy pricer to a server-authoritative, event-driven architecture; used a feature canary and parallel old/new-path validation to protect trader workflows while establishing parity and retiring legacy paths.
 - Designed a server-computed layout model that streams tabs, columns, nested per-leg grids, expansion state, styling, formatting, and cell-renderer metadata, keeping the browser focused on fast rendering and interaction rather than layout computation.
 - Built normalized and denormalized projections from a shared domain model and diff-based WebSocket publishing, sending only changed structure and removing redundant per-event fields to reduce payload churn on a latency-sensitive path.

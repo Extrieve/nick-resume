@@ -76,7 +76,7 @@
         <div class="expertise">
           <div class="expertise-row"><strong>Frontend:</strong> React, TypeScript, JavaScript, Redux Toolkit, redux-observable/RxJS, AG Grid Enterprise, Module Federation, Cypress, Jest, Karma/Jasmine</div>
           <div class="expertise-row"><strong>Real-Time &amp; Backend:</strong> Java, WebSocket, REST APIs, Node.js, Python, SQL, event-driven/distributed systems, normalized and denormalized projections</div>
-          <div class="expertise-row"><strong>Trading &amp; Delivery:</strong> Equity derivatives RFQ/RFS, DCM new issuance, pricing grids, P&amp;L/fees, CI/CD, LaunchDarkly, canary rollouts, production hardening</div>
+          <div class="expertise-row"><strong>Trading &amp; Delivery:</strong> Equity derivatives RFQ/RFT (request-for-quote/request-for-trade) workflows, including RFS support, DCM new issuance, pricing grids, P&amp;L/fees, CI/CD, LaunchDarkly, canary rollouts, production hardening</div>
           <div class="expertise-row"><strong>AI-Accelerated Engineering:</strong> Agentic coding systems, repo-aware code generation, debugging and refactoring, test design, and review workflows grounded in builds, tests, and human validation</div>
         </div>
       </section>
@@ -89,7 +89,7 @@
             <span class="dates">Apr 2025 - Present</span>
           </div>
           <ul>
-            <li>Own end-to-end delivery of a real-time, multi-leg pricing grid used by equity-derivatives traders to price and structure RFQ/RFS inquiries, spanning the React/TypeScript/AG Grid UI, Java pricing and streaming tier, WebSocket protocol, and release configuration.</li>
+            <li>Own end-to-end delivery of a real-time, multi-leg pricing grid used by equity-derivatives traders to price and structure RFQ/RFT inquiries and trades, spanning the React/TypeScript/AG Grid UI, Java pricing and streaming tier, WebSocket protocol, and release configuration.</li>
             <li>Led the incremental migration of a legacy client-heavy pricer to a server-authoritative, event-driven architecture; used a feature canary and parallel old/new-path validation to protect trader workflows while establishing parity and retiring legacy paths.</li>
             <li>Designed a server-computed layout model that streams tabs, columns, nested per-leg grids, expansion state, styling, formatting, and cell-renderer metadata, keeping the browser focused on fast rendering and interaction rather than layout computation.</li>
             <li>Built normalized and denormalized projections from a shared domain model and diff-based WebSocket publishing, sending only changed structure and removing redundant per-event fields to reduce payload churn on a latency-sensitive path.</li>
