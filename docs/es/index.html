@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nick Cinera - Currículum</title>
+  <meta name="description" content="Currículum de Nick Cinera, ingeniero de sistemas de trading especializado en interfaces de alto rendimiento, datos en tiempo real y sistemas distribuidos.">
+  <style>
+    :root { --ink:#171d24; --muted:#56616f; --accent:#00587a; --line:#d6dde6; --soft:#f6f8fa; --paper:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; color:var(--ink); background:#eef2f5; line-height:1.48; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .page { max-width:980px; margin:0 auto; padding:28px 18px 48px; }
+    .resume { background:var(--paper); border:1px solid var(--line); padding:44px 52px; box-shadow:0 18px 48px rgba(18,35,50,.10); }
+    header { text-align:center; margin-bottom:22px; }
+    .language-nav { display:flex; justify-content:flex-end; margin-bottom:18px; }
+    .language-link { display:inline-flex; align-items:center; gap:7px; border:1px solid var(--line); border-radius:999px; padding:6px 11px; color:var(--muted); font-size:13px; font-weight:700; }
+    .language-link:hover { color:var(--accent); border-color:var(--accent); text-decoration:none; }
+    .language-link::before { content:"🌐"; font-size:14px; line-height:1; }
+    h1 { margin:0; font-size:42px; line-height:1; letter-spacing:0; }
+    .tagline { margin:8px 0 6px; color:var(--accent); font-weight:700; font-size:18px; }
+    .contact { color:var(--muted); font-size:15px; }
+    .summary { max-width:850px; margin:18px auto 0; font-size:16px; }
+    .actions { display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-top:22px; }
+    .button { border:1px solid var(--accent); color:var(--accent); padding:8px 13px; font-weight:700; font-size:14px; }
+    .button.primary { background:var(--accent); color:white; }
+    section { margin-top:22px; }
+    h2 { margin:0 0 10px; color:var(--accent); border-bottom:1px solid #b9c3cf; font-size:20px; letter-spacing:0; text-transform:uppercase; }
+    .expertise { border:1px solid var(--line); background:var(--soft); padding:12px 15px; }
+    .expertise-row { margin:5px 0; font-size:14px; }
+    .expertise-row strong { color:var(--accent); }
+    .role { margin-top:14px; }
+    .role-head { display:flex; justify-content:space-between; gap:18px; align-items:baseline; font-size:17px; margin-bottom:2px; }
+    .role-head strong { font-size:18px; }
+    .dates { color:var(--muted); font-weight:700; white-space:nowrap; }
+    .location { color:var(--muted); }
+    ul { margin:4px 0 0 20px; padding:0; }
+    li { margin:5px 0; }
+    @media (max-width:760px) {
+      .resume { padding:28px 22px; }
+      .language-nav { margin-bottom:14px; }
+      h1 { font-size:34px; }
+      .role-head { display:block; }
+      .dates { display:block; margin-top:2px; }
+    }
+    @media print {
+      body { background:white; } .page { padding:0; } .resume { border:0; box-shadow:none; padding:0; } .actions { display:none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <article class="resume">
+      <nav class="language-nav" aria-label="Idioma">
+        <a class="language-link" href="../" lang="en" hreflang="en">English</a>
+      </nav>
+      <header>
+        <h1>Nick Cinera</h1>
+        <div class="tagline">Ingeniero de Sistemas de Trading | Interfaces de Alto Rendimiento, Datos en Tiempo Real y Sistemas Distribuidos</div>
+        <div class="contact">
+          Nueva York, NY | 386-212-8631 | <a href="mailto:nicolas.cinera@gmail.com">nicolas.cinera@gmail.com</a> |
+          <a href="https://www.linkedin.com/in/nickcinera">linkedin.com/in/nickcinera</a> |
+          <a href="https://github.com/Extrieve">github.com/Extrieve</a>
+        </div>
+        <p class="summary">Ingeniero de software en Goldman Sachs que desarrolla plataformas sensibles a la latencia para derivados de renta variable y mercados de capitales, usadas por traders y equipos de banca. Responsable de soluciones de punta a punta, desde interfaces React/TypeScript/AG Grid hasta servicios Java/WebSocket y despliegues en producción. Experiencia en estado en tiempo real, grillas de gran escala, arquitecturas orientadas a eventos y migración segura de flujos críticos.</p>
+        <div class="actions">
+          <a class="button primary" href="../output/Nick_Cinera_Resume_ES.pdf">Descargar PDF</a>
+          <a class="button" href="../output/Nick_Cinera_Resume_ES.docx">Descargar DOCX</a>
+          <a class="button" href="../output/Nick_Cinera_Resume_ES.md">Markdown</a>
+        </div>
+      </header>
+
+      <section>
+        <h2>Experiencia técnica</h2>
+        <div class="expertise">
+          <div class="expertise-row"><strong>Frontend:</strong> React, TypeScript, JavaScript, Redux Toolkit, redux-observable/RxJS, AG Grid Enterprise, Module Federation, Cypress, Jest, Karma/Jasmine</div>
+          <div class="expertise-row"><strong>Tiempo real y backend:</strong> Java, WebSocket, API REST, Node.js, Python, SQL, sistemas distribuidos/orientados a eventos y proyecciones normalizadas/desnormalizadas</div>
+          <div class="expertise-row"><strong>Trading y entrega:</strong> RFQ/RFS de derivados de renta variable, nuevas emisiones DCM, grillas de precios, P&amp;L/comisiones, CI/CD, LaunchDarkly, canary releases y producción</div>
+          <div class="expertise-row"><strong>Ingeniería acelerada con IA:</strong> Sistemas agénticos, generación de código con contexto del repositorio, depuración, refactorización, diseño de pruebas y revisión con validación humana</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Experiencia profesional</h2>
+        <div class="role">
+          <div class="role-head">
+            <div><strong>Goldman Sachs</strong> - Ingeniero de Software, Mercados Globales - Renta Variable <span class="location">| Nueva York, NY</span></div>
+            <span class="dates">abr. 2025 - actualidad</span>
+          </div>
+          <ul>
+            <li>Lidera de punta a punta una grilla de precios multi-leg en tiempo real para cotizar y estructurar RFQ/RFS de derivados de renta variable, desde React/TypeScript/AG Grid hasta Java, streaming, WebSocket y configuración de despliegue.</li>
+            <li>Lideró la migración incremental de un pricer heredado y centrado en el cliente hacia una arquitectura orientada a eventos con autoridad en el servidor; protegió los flujos de trading mediante un feature canary y validación paralela hasta alcanzar paridad y retirar la solución anterior.</li>
+            <li>Diseñó un modelo de layout calculado en el servidor que transmite pestañas, columnas, grillas anidadas por leg, expansión, estilos, formatos y metadatos de celdas, dejando al navegador enfocado en renderización e interacción rápidas.</li>
+            <li>Construyó proyecciones normalizadas y desnormalizadas desde un dominio compartido y publicación diferencial por WebSocket, enviando solo cambios estructurales y eliminando campos redundantes para reducir el payload en una ruta sensible a la latencia.</li>
+            <li>Completó aproximadamente 100 iniciativas en interfaces, servicios Java y configuración de despliegue en 12 meses, incluidos 188 commits en la capa de datos/grilla y 35 de 38 commits de servidor en el motor central de precios.</li>
+            <li>Aplica IA y agentes a navegación de repositorios, planificación, depuración, refactorización, diseño de pruebas y revisión, validando los resultados con builds locales, especificaciones y restricciones de producción.</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <div class="role-head">
+            <div><strong>Goldman Sachs</strong> - Ingeniero de Software, Banca de Inversión - Mercados de Deuda <span class="location">| Nueva York, NY</span></div>
+            <span class="dates">feb. 2023 - abr. 2025</span>
+          </div>
+          <ul>
+            <li>Fue responsable de dos aplicaciones de mercados de capitales usadas a diario para nuevas emisiones de bonos y préstamos: selección de inversores, demanda, precios, asignación, registro de operaciones y conciliación de P&amp;L/comisiones.</li>
+            <li>Desarrolló flujos densos y orientados al teclado con React/TypeScript, AG Grid, Redux Toolkit/Module Federation y Redux/RxJS, integrando actualizaciones en tiempo real y servicios REST.</li>
+            <li>Operó una plataforma de analítica como host de Module Federation, cargando aplicaciones remotas con orígenes inyectados en runtime para desarrollo, QA y producción, y dependencias React/Redux compartidas como singletons seguros.</li>
+            <li>Creó un framework reutilizable de preferencias y exportación entre grillas que conservaba orden, visibilidad, ancho, fijación y reglas de columnas por usuario, con CSV/Excel alineado a la vista.</li>
+            <li>Entregó flujos de edición de P&amp;L/comisiones y participación de inversores con navegación Tab/Enter, cambios pendientes, precisión, agregación multidivisa, API, autorizaciones y paridad de exportación.</li>
+            <li>Gestionó un paquete versionado de Funds Flow mediante reglas CI condicionales por rama, permitiendo probar versiones candidatas sin desestabilizar producción.</li>
+            <li>Modernizó ambas plataformas con migraciones React 17-18 y AG Grid 23-30, eliminación de node-sass, actualizaciones de LaunchDarkly, toolkit y Node, y configuración de Module Federation en CI/CD.</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <div class="role-head">
+            <div><strong>Goldman Sachs</strong> - Pasante de Ingeniería de Software <span class="location">| Dallas, TX</span></div>
+            <span class="dates">jun. 2022 - ago. 2022</span>
+          </div>
+          <ul>
+            <li>Recibió una oferta de regreso tras adquirir experiencia de ingeniería en producción dentro de servicios financieros regulados.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Formación, liderazgo y certificaciones</h2>
+        <div class="role">
+          <div class="role-head">
+            <div><strong>University of South Florida</strong> - M.S. en Sistemas de Computación e Información (Aprendizaje Automático)</div>
+            <span class="dates">dic. 2022</span>
+          </div>
+          <ul>
+            <li>Presidente Técnico, Society of Competitive Programmers de USF: preparó y entrenó a estudiantes para competencias ICPC, enseñando estructuras de datos, algoritmos, análisis de complejidad, correctitud y resolución sistemática de problemas bajo restricciones de tiempo.</li>
+            <li>Oracle Certified Professional, Java SE 8 Programmer II; Oracle Certified Associate, Java SE 8 Programmer | Bilingüe: inglés y español</li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
