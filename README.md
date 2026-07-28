@@ -1,6 +1,6 @@
 # Nick Cinera Resume
 
-Public resume artifacts for Nick Cinera in English and Spanish, focused on high-performance trading UI, real-time data, distributed capital-markets systems, and AI-assisted engineering workflows.
+Public resume artifacts for Nick Cinera in English and Spanish, focused on real-time trading UI, client/server architecture, and capital-markets workflow platforms.
 
 ## Files
 
@@ -26,4 +26,4 @@ If GitHub Pages needs to be reconfigured, set the publishing source to `main` / 
 
 ## Positioning
 
-The resume emphasizes production ownership of real-time trading platforms at Goldman Sachs, including React/TypeScript front ends, Java/WebSocket streaming services, AG Grid-heavy workflows, event-driven architecture, canary migrations, CI/CD release discipline, and pragmatic use of AI and agentic coding systems.
+The resume emphasizes production ownership at the client/server boundary of real-time trading platforms at Goldman Sachs, including React/TypeScript, AG Grid, Redux/RxJS, typed Java/WebSocket contracts, server-driven projections, versioned snapshot/delta subscriptions, controlled migrations, testing, rollout, and production support.
